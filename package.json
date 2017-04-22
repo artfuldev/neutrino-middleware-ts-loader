@@ -1,0 +1,32 @@
+{
+  "name": "neutrino-middleware-ts-loader",
+  "version": "1.0.0",
+  "description": "Neutrino middleware for importing and using typescript modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artfuldev/neutrino-middleware-ts-loader.git"
+  },
+  "keywords": [
+    "neutrino",
+    "neutrino-middleware",
+    "ts",
+    "ts-loader",
+    "typescript"
+  ],
+  "author": "Sudarsan Balaji <Sudarsan.Balaji@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artfuldev/neutrino-middleware-ts-loader/issues"
+  },
+  "homepage": "https://github.com/artfuldev/neutrino-middleware-ts-loader#readme",
+  "dependencies": {
+    "ts-loader": "^2.0.3"
+  },
+  "peerDependencies": {
+    "neutrino": "5.0.0"
+  }
+}
