@@ -1,5 +1,5 @@
 module.exports = ({ config }, options) => config.module
-  .rule('ts')
+  .rule('typescript')
     .test(/\.tsx?$/)
       .use('ts')
         .loader(require.resolve('ts-loader'))
