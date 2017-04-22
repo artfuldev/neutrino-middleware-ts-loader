@@ -45,7 +45,8 @@ ready to make changes.
 
 The following is a list of rules and their identifiers which can be overridden:
 
-- `typescript`: Allows importing and writing typescript modules. Contains two loaders named `sourcemap` and `ts` which use `source-map-loader` and `ts-loader`, respectively.
+- `sourcemap`: Allows using source maps for modules. Contains a loader named `sourcemap` which uses `source-map-loader`.
+- `typescript`: Allows importing and writing typescript modules. Contains a loader named `ts` which uses `ts-loader`.
 
 [npm-image]: https://img.shields.io/npm/v/neutrino-middleware-ts-loader.svg
 [npm-downloads]: https://img.shields.io/npm/dt/neutrino-middleware-ts-loader.svg
