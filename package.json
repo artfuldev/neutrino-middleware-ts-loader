@@ -1,6 +1,6 @@
 {
   "name": "neutrino-middleware-ts-loader",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Neutrino middleware for importing and using typescript modules",
   "main": "index.js",
   "scripts": {
