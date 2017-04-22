@@ -31,9 +31,9 @@
 and plug it into Neutrino:
 
 ```js
-const ts = require('neutrino-middleware-ts-loader');
+const typescript = require('neutrino-middleware-ts-loader');
 
-neutrino.use(ts);
+neutrino.use(typescript);
 ```
 
 ## Customization
