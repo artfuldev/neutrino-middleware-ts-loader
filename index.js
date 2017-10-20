@@ -1,4 +1,4 @@
-module.exports = ({ config }, options) =>
+module.exports = ({ config }, options = {}) =>
   config
     .resolve
       .extensions
